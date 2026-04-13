@@ -22,7 +22,7 @@ jobs:
         run: npx electron-builder --win portable
 
       - name: Upload EXE
-        uses: actions/upload-artifact@v3
+        uses: uses: actions/upload-artifact@v4
         with:
           name: isaahi-app
           path: dist/
